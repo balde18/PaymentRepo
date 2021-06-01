@@ -1,0 +1,10 @@
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/baseclass/TestBase.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/pages/UpiPage.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/qa/ExtentReportListener/ExtentReportListener.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/pages/NetBankingPage.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/utility/TestUtil.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/pages/BankPage.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/pages/CustomerInformationPage.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/pages/UPIPaymentProcessingPage.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/pages/PaymentDetailsPage.java
+/Users/ambrish/IdeaProjects/TestAutomation/src/main/java/com/payment/qa/pages/CouponCodePage.java

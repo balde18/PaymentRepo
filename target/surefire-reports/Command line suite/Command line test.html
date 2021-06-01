@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 29 09:55:54 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>179 seconds (179696 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.payment.qa.testcases.UpiPageTest.VerifyUPIFieldAvailableTest()'><b>VerifyUPIFieldAvailableTest</b><br>Test class: com.payment.qa.testcases.UpiPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.UpiPageTest@7dc222ae</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.NetBankingPageTest.SelectBankTest()'><b>SelectBankTest</b><br>Test class: com.payment.qa.testcases.NetBankingPageTest</td>
+<td></td>
+<td>10</td>
+<td>com.payment.qa.testcases.NetBankingPageTest@2f8f5f62</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CouponCodePageTest.VerifyApplyButtonTest()'><b>VerifyApplyButtonTest</b><br>Test class: com.payment.qa.testcases.CouponCodePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CouponCodePageTest@727803de</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CustomerInformationPageTest.CustomerInformationLogoTest()'><b>CustomerInformationLogoTest</b><br>Test class: com.payment.qa.testcases.CustomerInformationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CustomerInformationPageTest@1068e947</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.SelectPaymentMethod()'><b>SelectPaymentMethod</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CustomerInformationPageTest.CreateNewData()'><b>CreateNewData</b><br>Test class: com.payment.qa.testcases.CustomerInformationPageTest<br>Parameters: hero, h@example.com, 9098007752, 18, hest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CustomerInformationPageTest@1068e947</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CustomerInformationPageTest.CreateNewData()'><b>CreateNewData</b><br>Test class: com.payment.qa.testcases.CustomerInformationPageTest<br>Parameters: Test, t@example.com, 9098007752, 1, test</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CustomerInformationPageTest@1068e947</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CouponCodePageTest.VerifyApplyOfferButton()'><b>VerifyApplyOfferButton</b><br>Test class: com.payment.qa.testcases.CouponCodePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CouponCodePageTest@727803de</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.NetBankingPageTest.CustomerInformationTitleTest()'><b>CustomerInformationTitleTest</b><br>Test class: com.payment.qa.testcases.NetBankingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.NetBankingPageTest@2f8f5f62</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.VerifyPaymentButtonTest()'><b>VerifyPaymentButtonTest</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.VerifyPaymentOptionIsSelected()'><b>VerifyPaymentOptionIsSelected</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CouponCodePageTest.VerifyCouponCodeFieldTest()'><b>VerifyCouponCodeFieldTest</b><br>Test class: com.payment.qa.testcases.CouponCodePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CouponCodePageTest@727803de</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.NetBankingPageTest.VerifyProceedBtnTest()'><b>VerifyProceedBtnTest</b><br>Test class: com.payment.qa.testcases.NetBankingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.NetBankingPageTest@2f8f5f62</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CustomerInformationPageTest.CustomerInformationStoreNameTest()'><b>CustomerInformationStoreNameTest</b><br>Test class: com.payment.qa.testcases.CustomerInformationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CustomerInformationPageTest@1068e947</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CustomerInformationPageTest.CreateNewData()'><b>CreateNewData</b><br>Test class: com.payment.qa.testcases.CustomerInformationPageTest<br>Parameters: Ambrish, a@example.com, 9098007752, 1, Test</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CustomerInformationPageTest@1068e947</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.VerifyMonthSelectListTest()'><b>VerifyMonthSelectListTest</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CouponCodePageTest.CustomerInformationStoreNameTest()'><b>CustomerInformationStoreNameTest</b><br>Test class: com.payment.qa.testcases.CouponCodePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CouponCodePageTest@727803de</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.NetBankingPageTest.CustomerInformationLogoTest()'><b>CustomerInformationLogoTest</b><br>Test class: com.payment.qa.testcases.NetBankingPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.NetBankingPageTest@2f8f5f62</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CustomerInformationPageTest.CustomerInformationTitleTest()'><b>CustomerInformationTitleTest</b><br>Test class: com.payment.qa.testcases.CustomerInformationPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CustomerInformationPageTest@1068e947</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.VerifyNameOnCardFieldTest()'><b>VerifyNameOnCardFieldTest</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.UpiPageTest.verifyPayButtonTest()'><b>verifyPayButtonTest</b><br>Test class: com.payment.qa.testcases.UpiPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.payment.qa.testcases.UpiPageTest@7dc222ae</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.UpiPageTest.VerifyUPIOptionSelectedTest()'><b>VerifyUPIOptionSelectedTest</b><br>Test class: com.payment.qa.testcases.UpiPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.UpiPageTest@7dc222ae</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.VerifyCVVFieldTest()'><b>VerifyCVVFieldTest</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CouponCodePageTest.VerifyTitleOnCouponPageTest()'><b>VerifyTitleOnCouponPageTest</b><br>Test class: com.payment.qa.testcases.CouponCodePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CouponCodePageTest@727803de</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.VerifyCardOptionSelected()'><b>VerifyCardOptionSelected</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.VerifyYearSelectListTest()'><b>VerifyYearSelectListTest</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.CreateTransactionData()'><b>CreateTransactionData</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest<br>Parameters: 2223520443560010, Test, 737, Nov, 2023</td>
+<td></td>
+<td>2</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.CouponCodePageTest.VerifyCouponCodeLabelTest()'><b>VerifyCouponCodeLabelTest</b><br>Test class: com.payment.qa.testcases.CouponCodePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.CouponCodePageTest@727803de</td></tr>
+<tr>
+<td title='com.payment.qa.testcases.PaymentDetailsPageTest.verifyCardNumberFieldPresent()'><b>verifyCardNumberFieldPresent</b><br>Test class: com.payment.qa.testcases.PaymentDetailsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.payment.qa.testcases.PaymentDetailsPageTest@aecb35a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="28" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-28T15:37:48 IST" name="Unique Url Payment Page Automation Test Suite" finished-at="2021-05-28T15:41:39 IST" duration-ms="230436">
+    <groups>
+    </groups>
+    <test started-at="2021-05-28T15:37:48 IST" name="Unique Url Pages Test Cases" finished-at="2021-05-28T15:41:39 IST" duration-ms="230436">
+      <class name="com.payment.qa.testcases.CustomerInformationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:37:48 IST" name="setup" finished-at="2021-05-28T15:37:58 IST" duration-ms="10019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CustomerInformationTitleTest()[pri:1, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:37:58 IST" name="CustomerInformationTitleTest" finished-at="2021-05-28T15:37:58 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInformationTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:37:58 IST" name="teardown" finished-at="2021-05-28T15:37:58 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:37:58 IST" name="setup" finished-at="2021-05-28T15:38:06 IST" duration-ms="7278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CustomerInformationLogoTest()[pri:2, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:06 IST" name="CustomerInformationLogoTest" finished-at="2021-05-28T15:38:06 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInformationLogoTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:06 IST" name="teardown" finished-at="2021-05-28T15:38:06 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:06 IST" name="setup" finished-at="2021-05-28T15:38:11 IST" duration-ms="5045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CustomerInformationStoreNameTest()[pri:3, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:11 IST" name="CustomerInformationStoreNameTest" finished-at="2021-05-28T15:38:11 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInformationStoreNameTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:11 IST" name="teardown" finished-at="2021-05-28T15:38:11 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:12 IST" name="setup" finished-at="2021-05-28T15:38:17 IST" duration-ms="5059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:17 IST" name="CreateNewData" data-provider="getCustomerData" finished-at="2021-05-28T15:38:18 IST" duration-ms="787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ambrish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a@example.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9098007752]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:18 IST" name="teardown" finished-at="2021-05-28T15:38:18 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:18 IST" name="setup" finished-at="2021-05-28T15:38:24 IST" duration-ms="5822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:24 IST" name="CreateNewData" data-provider="getCustomerData" finished-at="2021-05-28T15:38:25 IST" duration-ms="747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[t@example.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9098007752]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:25 IST" name="teardown" finished-at="2021-05-28T15:38:25 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:25 IST" name="setup" finished-at="2021-05-28T15:38:30 IST" duration-ms="4932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:30 IST" name="CreateNewData" data-provider="getCustomerData" finished-at="2021-05-28T15:38:31 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hero]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h@example.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9098007752]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CustomerInformationPageTest@1efee8e7]" started-at="2021-05-28T15:38:31 IST" name="teardown" finished-at="2021-05-28T15:38:31 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.payment.qa.testcases.CustomerInformationPageTest -->
+      <class name="com.payment.qa.testcases.PaymentDetailsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:11 IST" name="setup" finished-at="2021-05-28T15:39:16 IST" duration-ms="4949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyPaymentOptionIsSelected()[pri:1, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:16 IST" name="VerifyPaymentOptionIsSelected" finished-at="2021-05-28T15:39:16 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPaymentOptionIsSelected -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:16 IST" name="teardown" finished-at="2021-05-28T15:39:16 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:16 IST" name="setup" finished-at="2021-05-28T15:39:22 IST" duration-ms="6577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectPaymentMethod()[pri:2, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:22 IST" name="SelectPaymentMethod" finished-at="2021-05-28T15:39:23 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPaymentMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:23 IST" name="teardown" finished-at="2021-05-28T15:39:23 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:23 IST" name="setup" finished-at="2021-05-28T15:39:28 IST" duration-ms="4957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCardOptionSelected()[pri:2, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:28 IST" name="VerifyCardOptionSelected" finished-at="2021-05-28T15:39:28 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCardOptionSelected -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:28 IST" name="teardown" finished-at="2021-05-28T15:39:28 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:28 IST" name="setup" finished-at="2021-05-28T15:39:34 IST" duration-ms="5329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCardNumberFieldPresent()[pri:3, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:34 IST" name="verifyCardNumberFieldPresent" finished-at="2021-05-28T15:39:34 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCardNumberFieldPresent -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:34 IST" name="teardown" finished-at="2021-05-28T15:39:34 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:34 IST" name="setup" finished-at="2021-05-28T15:39:42 IST" duration-ms="8068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyNameOnCardFieldTest()[pri:4, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:42 IST" name="VerifyNameOnCardFieldTest" finished-at="2021-05-28T15:39:42 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNameOnCardFieldTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:42 IST" name="teardown" finished-at="2021-05-28T15:39:42 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:42 IST" name="setup" finished-at="2021-05-28T15:39:47 IST" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCVVFieldTest()[pri:5, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:47 IST" name="VerifyCVVFieldTest" finished-at="2021-05-28T15:39:47 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCVVFieldTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:47 IST" name="teardown" finished-at="2021-05-28T15:39:47 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:47 IST" name="setup" finished-at="2021-05-28T15:39:53 IST" duration-ms="5930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyMonthSelectListTest()[pri:6, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:53 IST" name="VerifyMonthSelectListTest" finished-at="2021-05-28T15:39:53 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMonthSelectListTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:53 IST" name="teardown" finished-at="2021-05-28T15:39:54 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:39:54 IST" name="setup" finished-at="2021-05-28T15:40:02 IST" duration-ms="8174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyYearSelectListTest()[pri:7, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:02 IST" name="VerifyYearSelectListTest" finished-at="2021-05-28T15:40:02 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyYearSelectListTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:02 IST" name="teardown" finished-at="2021-05-28T15:40:02 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:02 IST" name="setup" finished-at="2021-05-28T15:40:09 IST" duration-ms="7108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyPaymentButtonTest()[pri:8, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:09 IST" name="VerifyPaymentButtonTest" finished-at="2021-05-28T15:40:09 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPaymentButtonTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:09 IST" name="teardown" finished-at="2021-05-28T15:40:09 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:09 IST" name="setup" finished-at="2021-05-28T15:40:17 IST" duration-ms="7338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateTransactionData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:17 IST" name="CreateTransactionData" data-provider="getCustomerData" finished-at="2021-05-28T15:40:19 IST" duration-ms="2701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2223520443560010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[737]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nov]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTransactionData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.PaymentDetailsPageTest@3d3fcdb0]" started-at="2021-05-28T15:40:19 IST" name="teardown" finished-at="2021-05-28T15:40:19 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.payment.qa.testcases.PaymentDetailsPageTest -->
+      <class name="com.payment.qa.testcases.NetBankingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:19 IST" name="setup" finished-at="2021-05-28T15:40:29 IST" duration-ms="9729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CustomerInformationTitleTest()[pri:1, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:29 IST" name="CustomerInformationTitleTest" finished-at="2021-05-28T15:40:29 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInformationTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:29 IST" name="teardown" finished-at="2021-05-28T15:40:29 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:29 IST" name="setup" finished-at="2021-05-28T15:40:36 IST" duration-ms="6306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CustomerInformationLogoTest()[pri:2, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:36 IST" name="CustomerInformationLogoTest" finished-at="2021-05-28T15:40:36 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInformationLogoTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:36 IST" name="teardown" finished-at="2021-05-28T15:40:36 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:36 IST" name="setup" finished-at="2021-05-28T15:40:43 IST" duration-ms="7088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyProceedBtnTest()[pri:3, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:43 IST" name="VerifyProceedBtnTest" finished-at="2021-05-28T15:40:43 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProceedBtnTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:43 IST" name="teardown" finished-at="2021-05-28T15:40:43 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:43 IST" name="setup" finished-at="2021-05-28T15:40:49 IST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectBankTest()[pri:4, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:40:49 IST" name="SelectBankTest" finished-at="2021-05-28T15:41:20 IST" duration-ms="31300" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#LabelForControl16117102"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ambrishs-Air', ip: '2401:4900:1a5f:4324:2c02:b5ff:168d:1679%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/dy/nvj0bpfx62j...}, goog:chromeOptions: {debuggerAddress: localhost:65169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc3147d268b97fd304780b3a0698cf9c
+*** Element info: {Using=id, value=LabelForControl16117102}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#LabelForControl16117102"}
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ambrishs-Air', ip: '2401:4900:1a5f:4324:2c02:b5ff:168d:1679%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/dy/nvj0bpfx62j...}, goog:chromeOptions: {debuggerAddress: localhost:65169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc3147d268b97fd304780b3a0698cf9c
+*** Element info: {Using=id, value=LabelForControl16117102}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.getText(Unknown Source)
+at com.payment.qa.pages.NetBankingPage.validatetextonICICPage(NetBankingPage.java:57)
+at com.payment.qa.testcases.NetBankingPageTest.SelectBankTest(NetBankingPageTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBankTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.NetBankingPageTest@641147d0]" started-at="2021-05-28T15:41:20 IST" name="teardown" finished-at="2021-05-28T15:41:20 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.payment.qa.testcases.NetBankingPageTest -->
+      <class name="com.payment.qa.testcases.UpiPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:20 IST" name="setup" finished-at="2021-05-28T15:41:26 IST" duration-ms="5764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUPIOptionSelectedTest()[pri:1, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:26 IST" name="VerifyUPIOptionSelectedTest" finished-at="2021-05-28T15:41:26 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUPIOptionSelectedTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:26 IST" name="teardown" finished-at="2021-05-28T15:41:26 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:26 IST" name="setup" finished-at="2021-05-28T15:41:31 IST" duration-ms="4981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUPIFieldAvailableTest()[pri:2, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:31 IST" name="VerifyUPIFieldAvailableTest" finished-at="2021-05-28T15:41:31 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUPIFieldAvailableTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:31 IST" name="teardown" finished-at="2021-05-28T15:41:31 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:31 IST" name="setup" finished-at="2021-05-28T15:41:36 IST" duration-ms="4837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPayButtonTest()[pri:3, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:36 IST" name="verifyPayButtonTest" finished-at="2021-05-28T15:41:38 IST" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayButtonTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.UpiPageTest@6e38921c]" started-at="2021-05-28T15:41:38 IST" name="teardown" finished-at="2021-05-28T15:41:39 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.payment.qa.testcases.UpiPageTest -->
+      <class name="com.payment.qa.testcases.CouponCodePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:31 IST" name="setup" finished-at="2021-05-28T15:38:39 IST" duration-ms="8207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyTitleOnCouponPageTest()[pri:1, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:39 IST" name="VerifyTitleOnCouponPageTest" finished-at="2021-05-28T15:38:39 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitleOnCouponPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:39 IST" name="teardown" finished-at="2021-05-28T15:38:39 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:39 IST" name="setup" finished-at="2021-05-28T15:38:47 IST" duration-ms="8065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CustomerInformationStoreNameTest()[pri:2, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:47 IST" name="CustomerInformationStoreNameTest" finished-at="2021-05-28T15:38:47 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInformationStoreNameTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:47 IST" name="teardown" finished-at="2021-05-28T15:38:48 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:48 IST" name="setup" finished-at="2021-05-28T15:38:55 IST" duration-ms="6873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCouponCodeLabelTest()[pri:3, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:55 IST" name="VerifyCouponCodeLabelTest" finished-at="2021-05-28T15:38:55 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCouponCodeLabelTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:55 IST" name="teardown" finished-at="2021-05-28T15:38:55 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:38:55 IST" name="setup" finished-at="2021-05-28T15:39:00 IST" duration-ms="5267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyCouponCodeFieldTest()[pri:4, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:00 IST" name="VerifyCouponCodeFieldTest" finished-at="2021-05-28T15:39:00 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCouponCodeFieldTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:00 IST" name="teardown" finished-at="2021-05-28T15:39:00 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:00 IST" name="setup" finished-at="2021-05-28T15:39:05 IST" duration-ms="4979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyApplyButtonTest()[pri:5, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:05 IST" name="VerifyApplyButtonTest" finished-at="2021-05-28T15:39:05 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplyButtonTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:05 IST" name="teardown" finished-at="2021-05-28T15:39:05 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:05 IST" name="setup" finished-at="2021-05-28T15:39:10 IST" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyApplyOfferButton()[pri:5, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:10 IST" name="VerifyApplyOfferButton" finished-at="2021-05-28T15:39:11 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplyOfferButton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.payment.qa.testcases.CouponCodePageTest@6b0c2d26]" started-at="2021-05-28T15:39:11 IST" name="teardown" finished-at="2021-05-28T15:39:11 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.payment.qa.testcases.CouponCodePageTest -->
+    </test> <!-- Unique Url Pages Test Cases -->
+  </suite> <!-- Unique Url Payment Page Automation Test Suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+com/payment/qa/testcases/CouponCodePageTest.class
+com/payment/qa/testcases/UpiPageTest.class
+com/payment/qa/testcases/NetBankingPageTest.class
+com/payment/qa/testcases/PaymentDetailsPageTest.class
+com/payment/qa/testcases/CustomerInformationPageTest.class

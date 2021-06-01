@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Unique Url Payment Page Automation Test Suite">
+
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+    </listeners>
+
+    <test name="Unique Url Pages Test Cases">
+        <classes>
+            <class name="com.payment.qa.testcases.CustomerInformationPageTest"></class>
+            <class name="com.payment.qa.testcases.CouponCodePageTest"></class>
+            <class name="com.payment.qa.testcases.PaymentDetailsPageTest"></class>
+            <class name="com.payment.qa.testcases.NetBankingPageTest"></class>
+            <class name="com.payment.qa.testcases.UpiPageTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="29" failures="0" name="TestSuite" time="17.776" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="TestAutomation"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="PWD" value="/Users/ambrish/Documents/jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/TestAutomation/5/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/ambrish/.jenkins"/>
+    <property name="PATH" value="/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="50180dbc4a96f72f"/>
+    <property name="POM_ARTIFACTID" value="TestAutomation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="TERM_SESSION_ID" value="C7C8A2DF-3AA6-4498-8892-3D58594FF5DD"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="TestAutomation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="ambrish"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="TestAutomation"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/TestAutomation/5/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="TMPDIR" value="/var/folders/dy/nvj0bpfx62j8s6t3qsm7js1w0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Users/ambrish/Library/Java/JavaVirtualMachines/openjdk-15.0.2/Contents/Home/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="5"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/zsh"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="GB"/>
+    <property name="java.home" value="/Users/ambrish/Library/Java/JavaVirtualMachines/openjdk-15.0.2/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="JAVA_MAIN_CLASS_13843" value="Main"/>
+    <property name="os.version" value="10.16"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/TestAutomation/5/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/TestAutomation/5/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/TestAutomation/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="LOGNAME" value="ambrish"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/ambrish"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_GROUPID" value="org.example"/>
+    <property name="user.home" value="/Users/ambrish"/>
+    <property name="BUILD_TAG" value="jenkins-TestAutomation-5"/>
+    <property name="JENKINS_SERVER_COOKIE" value="50180dbc4a96f72f"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/ambrish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven /Users/ambrish/.jenkins/war/WEB-INF/lib/remoting-4.8.jar /Users/ambrish/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/ambrish/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 56099"/>
+    <property name="java.class.path" value="/Users/ambrish/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/boot/plexus-classworlds-2.6.0.jar:/Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="M2_HOME" value="/Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/var/folders/dy/nvj0bpfx62j8s6t3qsm7js1w0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/ambrish/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven/bin"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/ambrish"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/TestAutomation/5/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.3hcnmxJ4W5/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0:2"/>
+    <property name="user.dir" value="/Users/ambrish/IdeaProjects/TestAutomation"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/TestAutomation/"/>
+    <property name="MAVEN_HOME" value="/Users/ambrish/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/TestMaven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="5"/>
+    <property name="TERM_PROGRAM_VERSION" value="440"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="__CFBundleIdentifier" value="com.apple.Terminal"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/ambrish/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/ambrish/.jenkins/workspace/TestAutomation@tmp"/>
+    <property name="WORKSPACE" value="/Users/ambrish/.jenkins/workspace/TestAutomation"/>
+    <property name="maven3.interceptor.common" value="/Users/ambrish/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="USER" value="ambrish"/>
+  </properties>
+  <testcase classname="com.payment.qa.testcases.CouponCodePageTest" name="VerifyTitleOnCouponPageTest" time="0.017"/>
+  <testcase classname="com.payment.qa.testcases.CouponCodePageTest" name="CustomerInformationStoreNameTest" time="0.042"/>
+  <testcase classname="com.payment.qa.testcases.CouponCodePageTest" name="VerifyCouponCodeLabelTest" time="0.085"/>
+  <testcase classname="com.payment.qa.testcases.CouponCodePageTest" name="VerifyCouponCodeFieldTest" time="0.063"/>
+  <testcase classname="com.payment.qa.testcases.CouponCodePageTest" name="VerifyApplyButtonTest" time="0.052"/>
+  <testcase classname="com.payment.qa.testcases.CouponCodePageTest" name="VerifyApplyOfferButton" time="0.11"/>
+  <testcase classname="com.payment.qa.testcases.NetBankingPageTest" name="CustomerInformationTitleTest" time="0.007"/>
+  <testcase classname="com.payment.qa.testcases.NetBankingPageTest" name="CustomerInformationLogoTest" time="0.048"/>
+  <testcase classname="com.payment.qa.testcases.NetBankingPageTest" name="VerifyProceedBtnTest" time="0.068"/>
+  <testcase classname="com.payment.qa.testcases.NetBankingPageTest" name="SelectBankTest" time="10.527"/>
+  <testcase classname="com.payment.qa.testcases.CustomerInformationPageTest" name="CustomerInformationTitleTest" time="0.008"/>
+  <testcase classname="com.payment.qa.testcases.CustomerInformationPageTest" name="CustomerInformationLogoTest" time="0.034"/>
+  <testcase classname="com.payment.qa.testcases.CustomerInformationPageTest" name="CustomerInformationStoreNameTest" time="0.034"/>
+  <testcase classname="com.payment.qa.testcases.CustomerInformationPageTest" name="CreateNewData" time="0.628"/>
+  <testcase classname="com.payment.qa.testcases.CustomerInformationPageTest" name="CreateNewData" time="0.625"/>
+  <testcase classname="com.payment.qa.testcases.CustomerInformationPageTest" name="CreateNewData" time="0.661"/>
+  <testcase classname="com.payment.qa.testcases.UpiPageTest" name="VerifyUPIOptionSelectedTest" time="0.028"/>
+  <testcase classname="com.payment.qa.testcases.UpiPageTest" name="VerifyUPIFieldAvailableTest" time="0.043"/>
+  <testcase classname="com.payment.qa.testcases.UpiPageTest" name="verifyPayButtonTest" time="1.774"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="VerifyPaymentOptionIsSelected" time="0.052"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="SelectPaymentMethod" time="0.273"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="VerifyCardOptionSelected" time="0.024"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="verifyCardNumberFieldPresent" time="0.034"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="VerifyNameOnCardFieldTest" time="0.048"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="VerifyCVVFieldTest" time="0.039"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="VerifyMonthSelectListTest" time="0.049"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="VerifyYearSelectListTest" time="0.04"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="VerifyPaymentButtonTest" time="0.038"/>
+  <testcase classname="com.payment.qa.testcases.PaymentDetailsPageTest" name="CreateTransactionData" time="2.325"/>
+</testsuite>
