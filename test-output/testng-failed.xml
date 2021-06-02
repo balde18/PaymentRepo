@@ -6,13 +6,15 @@
   </listeners>
   <test thread-count="5" name="Unique Url Pages Test Cases(failed)">
     <classes>
-      <class name="com.payment.qa.testcases.NetBankingPageTest">
+      <class name="com.payment.qa.testcases.PaymentDetailsPageTest">
         <methods>
-          <include name="SelectBankTest"/>
-          <include name="teardown"/>
+          <include name="VerifyYearSelectListTest"/>
+          <include name="VerifyPaymentButtonTest"/>
           <include name="setup"/>
+          <include name="CreateTransactionData"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.payment.qa.testcases.NetBankingPageTest -->
+      </class> <!-- com.payment.qa.testcases.PaymentDetailsPageTest -->
     </classes>
   </test> <!-- Unique Url Pages Test Cases(failed) -->
 </suite> <!-- Failed suite [Unique Url Payment Page Automation Test Suite] -->
